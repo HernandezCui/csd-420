@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Iterator;
+
 public class LinkedListTraversalTest {
     public static void main(String[] args) {
         // Test with 50,000 integers
