@@ -20,3 +20,11 @@ public static List<String> readWordsFromFile(String filename) {
     return new ArrayList<>(wordsSet); // Convert the set to a list and return
 }
 
+public static void sortAscending(List<String> words) {
+    Collections.sort(words);
+    System.out.println("Words in ascending order:");
+    for (String word : words) {
+        System.out.println(word);
+    }
+}
+
