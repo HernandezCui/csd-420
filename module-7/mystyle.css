@@ -1,0 +1,15 @@
+/* Class for white fill and black stroke */
+.white-fill-black-stroke {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+/* ID for red color */
+#red-circle {
+    -fx-fill: red;
+}
+
+/* ID for green color */
+#green-circle {
+    -fx-fill: green;
+} 
